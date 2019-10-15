@@ -22,9 +22,7 @@ Os requisitos funcionais são simples:
 ![serverless](friends.jpg)
  
 Para a entrega do teste, uma API foi criada utilizando os serviços serverless em nuvem da AWS.
-Com o paradigma serverless, a aplicação fica altamente escalável, com baixo custo e principalmente sem 
-o custo de manutenção de servidores. Além da API, a cada requisição os dados são gravados em um banco
-de dados para serem consultado em uma camada de visualização (METABASE).
+Com o paradigma serverless, a aplicação fica altamente escalável, com baixo custo e principalmente sem o custo de manutenção de servidores. Além da API, a cada requisição os dados são gravados em um banco de dados para serem consultados em uma camada de visualização (METABASE).
 
 #### SERVIÇOS UTILIZADOS
 
@@ -66,7 +64,7 @@ Acesso: [METABASE](http://ingaia.us-east-1.elasticbeanstalk.com/
 
 |            |           |
 | ---------- |:---------:|
-| LOGIN:     | ingaia    |
+| LOGIN:     | analytics@ingaia.com.br    |
 | SENHA:     | ingaia123 | 
 
 
