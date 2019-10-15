@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: 'ingaia-weather-api
+
+  Sample SAM Template for ingaia-weather-api
+
+  '
+Globals:
+  Function:
+    Timeout: 30
+Resources:
+  weatherMusicApi:
+    Properties:
+      CodeUri: s3://ingaia-weather-music-api/c0ccbd7eb67e41ea5e3efde33c29abd8
+      FunctionName: ingaia-weather-music-api
+      Handler: app.lambda_handler
+      Runtime: python3.7
+    Type: AWS::Serverless::Function
+Transform: AWS::Serverless-2016-10-31
