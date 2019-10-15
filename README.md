@@ -55,7 +55,7 @@ Contendo:
 - BODY:
     ```{ "city": "NOME DA CIDADE", "user": "ID USUÁRIO" }```
 
-######Obs: o parâmetro "user" foi criado apenas para simular também o registro do id de usuário na requisição.
+###### Obs: o parâmetro "user" foi criado apenas para simular também o registro do id de usuário na requisição.
 
 #### ACESSO AO METABASE
 
