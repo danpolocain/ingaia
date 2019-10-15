@@ -18,4 +18,9 @@ Resources:
       Handler: app.lambda_handler
       Runtime: python3.7
       FunctionName: 'ingaia-weather-music-api'
-
+      Events:
+        HttpPost:
+          Type: Api
+          Properties:
+            Path: '/prod'
+            Method: post

@@ -10,7 +10,13 @@ Globals:
 Resources:
   weatherMusicApi:
     Properties:
-      CodeUri: s3://ingaia-weather-music-api/c0ccbd7eb67e41ea5e3efde33c29abd8
+      CodeUri: s3://ingaia-weather-music-api/abb19aac60a2471ed2b7b7a283e467d7
+      Events:
+        HttpPost:
+          Properties:
+            Method: post
+            Path: /prod
+          Type: Api
       FunctionName: ingaia-weather-music-api
       Handler: app.lambda_handler
       Runtime: python3.7
